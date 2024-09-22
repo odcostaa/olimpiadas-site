@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Olimpíadas - Contate nos</title>
+    <meta name="author" content="Diogo Vieira da Costa">
+    <meta name="description" content="Esta página disponibiliza um formulário para avaliação e contato sobre o site">
+    <meta name="keywords" content="Voelibol, Volei, Olimpiadas, Paris 2024, Praia, Masculino">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="img/jpg" href="img/contato-icon.png">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="menu">
+                <ul>
+                    <div class="topicos-div">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="destaques.html">Destaques</a></li>
+                        <li><a href="desafios.html">Desafios</a></li>
+                        <li><a href="medalhas.html">Medalhas</a></li>
+                        <li><a href="contato.html" class="underline">Contato</a></li>
+                    </div>
+                </ul>
+            </div>
+        </header>
+
+        <h1 class="h1-contato">Contato</h1>
+
+        <form name="formulario" method="get" action="#">
+            <div class="input-e-indicador">
+                <p class="indicador-formulario">Nome:</p>
+                <input type="text" name="nome" placeholder="Seu nome completo">
+            </div>
+
+            <div class="input-e-indicador">
+                <p class="indicador-formulario">Email:</p>
+                <input type="text" name="email" placeholder="seu.email@dominio.com">
+            </div>
+
+            <div class="input-e-indicador">
+                <p class="indicador-formulario">Avalie o site:</p>
+                <select name="nota" id="nota">
+                    <option>Selecionar
+                    <option>0
+                    <option>1
+                    <option>2
+                    <option>3
+                    <option>4
+                    <option>5
+                    <option>6
+                    <option>7
+                    <option>8
+                    <option>9
+                    <option>10
+                </select>
+            </div>
+
+            <!-- <div class="input-e-indicador">
+                <p class="indicador-formulario">Telefone:</p>
+                <input type="text" name="telefone" placeholder="Número de telefone">
+            </div> -->
+
+            <div class="input-e-indicador">
+                <p class="indicador-formulario">Mensagem:</p>
+                <textarea name="textarea-name" placeholder="Deixe seu recado" rows="15"></textarea>
+            </div>
+
+            <div class="botoes">
+                <input type="submit" value="Enviar" class="input-enviar" onclick="return validForms()">
+                <input type="reset" value="Limpar" class="input-limpar">
+            </div>
+
+        </form>
+
+        <footer>
+            <div class="rodape">
+                <h5>Diogo Costa 2024 - &copyTodos os direitos reservados.<br> Trabalho acadêmico sem fins lucrativos.
+                </h5>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

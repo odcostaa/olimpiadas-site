@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Permanent+Marker&family=Sansita+Swashed:wght@300..900&family=Shrikhand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Coloração do fundo de cada parte da página*/
+/*Coloração do fundo de cada parte da página*/
+
+
+
+/*Final colocaração das partes*/
+/*Final colocaração das partes*/
+
+header {
+    z-index: 10;
+}
+
+.container {
+    max-width: 900px;
+    width: 900px;
+    min-width: none;
+    height: 100%;
+    /* border: 2px solid orange; */
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.259);
+
+}
+
+.container img {
+    max-width: 90%;
+}
+
+.menu {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3vw;
+}
+
+.menu ul .topicos-div {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.menu ul .underline {
+    text-decoration: underline 2px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    /* font-size: 2.5vw; */
+    font-size: 260%;
+    margin-top: 0.3%;
+}
+
+h2 {
+    font-size: 130%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.bola-volei-o-h1 {
+    width: 3%;
+    z-index: 10;
+    position: relative;
+    text-decoration: normal;
+    font-weight: 100;
+}
+
+.caixas-de-textos-informativos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.conteudo-caixa-txt {
+    text-align: justify;
+    width: 90%;
+    margin-left: 0;
+    margin-top: 4%;
+    font-size: 100%;
+}
+
+.div-logo-olimpiadas {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.paris-logo-olimpiadas {
+    width: 60%;
+    margin: 0 auto;
+}
+
+iframe {
+    text-align: center;
+}
+
+/*PAGINA SOBRE*/
+/*PAGINA SOBRE*/
+
+.blocco-informacoes-vertical-1,
+.blocco-informacoes-vertical-2 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.enfeite-bloco-caracteristicas {
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    width: 40%;
+}
+
+.imagem-container-sobre {
+    max-width: 100%;
+}
+
+.div-do-iframe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+/*FIANL SOBRE*/
+/*FIANL SOBRE*/
+
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.th-masc {
+    background-color: #42d3f4;
+    color: white;
+}
+
+.th-fem {
+    background-color: #f442c5;
+    color: white;
+}
+
+/*DESAFIOS LAYOUTT*/
+/*DESAFIOS LAYOUTT*/
+/*DESAFIOS LAYOUTT*/
+
+.bloco-resultado-jogos-brasil {
+    width: 90%;
+    height: auto;
+    margin: 8% auto;
+    display: flex;
+    padding: 20px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bloco-resultado-jogos-brasil img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.bandeira-e-nome-pais1,
+.bandeira-e-nome-pais2 {
+    width: 34%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.resultado-e-placar {
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nome {
+    text-align: center;
+    padding: 1px;
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.bandeira{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.356);
+}
+
+@media (max-width: 768px) {
+    .bloco-resultado-jogos-brasil {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .bandeira-e-nome-pais1,
+    .bandeira-e-nome-pais2,
+    .resultado-e-placar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .resultado-e-placar {
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*INICIO CONTATO*/
+/*INICIO CONTATO*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form .input-e-indicador input {
+    min-width: 80%;
+}
+
+.input-e-indicador {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.input-e-indicador .indicador-formulario {
+    width: 15%;
+    margin-left: 4%;
+    border-radius: 2px;
+    padding: 1%;
+    border-left: 1px solid rgb(0, 0, 0);
+    margin-top: 2%;
+}
+
+.input-e-indicador input,
+.input-e-indicador select {
+    background-color: transparent;
+    padding: 1%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.211);
+}
+
+textarea {
+    resize: none;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.211);
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.botoes {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.botoes input {
+    padding: 1% 3%;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.211);
+}
+
+.botoes .input-enviar {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 255, 0, 0.624);
+    background-color: transparent;
+}
+
+.botoes .input-limpar {
+    border-radius: 5px;
+    border: solid 1px rgb(255, 0, 0, 0.624);
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.indicador-formulario {
+    font-size: 90%;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsividade do container*/
+/*Responsividade do container*/
+
+
+@media screen and (max-width: 899px) {
+
+    .container {
+        width: 100%;
+    }
+
+}
+
+/*FINAL responsividade do container*/
+/*FINAL responsividade do container*/
+
+
+
+
+
+
+
+
+
+
+/*Responsividade 900px -----> NORMAL*/
+/*Responsividade 900px -----> NORMAL*/
+
+
+@media screen and (max-width: 900px) {}
+
+/*FINAL responsividade 900px -----> NORMAL*/
+/*FINAL responsividade 900px -----> NORMAL*/
+
+
+
+
+
+
+
+
+
+/*RESPONSIVIDADE 820px ------------> Ipad Air*/
+/*RESPONSIVIDADE 820px ------------> Ipad Air*/
+
+@media screen and (max-width: 820px) {}
+
+/*FINAL responsividade do Ipad Air*/
+/*FINAL responsividade do Ipad Air*/
+
+
+
+
+
+
+
+
+
+/*RESPONSIVIDADE 800px ------------> Kindle Kindle*/
+/*RESPONSIVIDADE 800px ------------> Kindle Kindle*/
+
+@media screen and (max-width: 800px) {}
+
+/*FINAL DA RESPONSIVIDADE 800px ------------> FINAL Kindle Kindle*/
+/*FINAL DA RESPONSIVIDADE 800px ------------> FINAL Kindle Kindle*/
+
+
+
+
+
+
+
+
+footer img{
+    width: 3%;
+    float: right;
+}
+
+footer{
+    padding: 7%;
+}
+
+footer h5{
+    text-align: center;
+}
+
+.rodape{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
